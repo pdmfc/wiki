@@ -97,4 +97,8 @@ class Wiki extends Tool
     {
         return view('wiki::navigation');
     }
+
+    public function menu(Request $request) {
+        return $request;
+    }
 }
